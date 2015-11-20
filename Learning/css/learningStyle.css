@@ -1,0 +1,19 @@
+a{
+  color: rgb(100,200,300);
+  text-decoration: none;
+}
+
+h2{
+  color: rgb(50, 30, 500);;
+  font-family: sans-serif;
+}
+
+img{
+  margin-left: 120px;
+}
+
+div{
+  background-color: green;
+  margin: auto;
+  width: 500px;
+}
