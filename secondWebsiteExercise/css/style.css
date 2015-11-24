@@ -1,0 +1,414 @@
+/***********************************************************************************************************
+stylesheet for body
+***********************************************************************************************************/
+body{
+  background: #D4D6D7;
+}
+
+/************************************************************************************************************
+stylesheet for header
+************************************************************************************************************/
+nav li {
+  margin: 30px 0px;
+  display: inline;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li:hover {
+  background: rgba(29, 83, 119, 1);
+  transition-duration: 0.5s;
+  color: white;
+  opacity: 0.5;
+}
+
+#id_Home_li {
+  background: rgba(29, 83, 119, 1);
+}
+
+#id_Home_a {
+  color: white;
+}
+
+#id_section {
+  background: #C0C3C5;
+  height: 100px;
+  width: 1349px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20px;
+}
+
+#id_section h1, h5 {
+  text-align: justify;
+  word-wrap: break-word;
+  letter-spacing: normal;
+}
+
+#id_section h1 {
+  font: normal normal normal 42px/1.4em Impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+  color: #464B4E;
+  font-size: 42px;
+  margin-bottom: 0px;
+  height: 48;
+}
+
+#id_section h5 {
+  line-height: 1.4em;
+  font-family: Play, sans-serif;;
+  font: normal normal normal 18px/1.4em Play,sans-serif;
+  color: #202B33;
+  font-size: 18px;
+}
+
+#id_section img {
+  /*background: red;*/
+  height: 45px;
+  width: 70px;
+}
+
+/************************************************************************************************************
+stylesheet for subhero section-1
+************************************************************************************************************/
+#id_subHeroSection-1 {
+  background: rgba(29, 83, 119, 1);
+  margin-top: 15px;
+  width: 1349px;
+  height: 359px;
+}
+
+#id_inner_division_1, #id_inner_division_2 {
+  height: 330;
+  margin: 0px;
+}
+
+#id_inner_division_2 {
+  height : 300px;
+}
+
+#id_inner_division_2 #img2 {
+  position: relative;
+  top: -430px;
+  left: 100px;
+}
+
+#id_inner_division_2 #img1 {
+  position: relative;
+  left: -30px;
+  top: -30px;
+  z-index: 1000000;
+}
+
+#id_subHeroSection-1 h1 {
+  color: #D4D6D7;
+  font: normal normal normal 40px/1.4em Impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+  font-size: 40px;
+  padding-top: 50px;
+  line-height: 1em;
+}
+
+#id_subHeroSection-1 p {
+  color: #D4D6D7;
+  font: normal normal normal 12px/1.4em 'Open Sans',sans-serif;
+  font-size: 15px;
+  padding-top: 5px;
+  line-height: 1em;
+  text-align: justify;
+}
+
+#id_inner_division_1 span {
+  width: 185px;
+  height: 30px;
+  background-color: rgba(255, 140, 0, 1);
+  padding-top: 8px;
+}
+
+#id_inner_division_1 a {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+#id_inner_division_1 span:hover {
+  background-color: black;
+  transition-duration: 0.7s;
+  color: white;
+  opacity: 0.8;
+}
+
+/************************************************************************************************************
+stylesheet for three column section
+************************************************************************************************************/
+#three_ColumnSection {
+  height: 350px;
+}
+
+.c_inner_division_ColumnSection {
+  margin-top: 50px;
+  height: 200px;
+  text-align: center;
+  /*border-right: 1px solid;*/
+
+}
+
+.c_inner_division_ColumnSection img {
+  height: 75px;
+}
+
+.c_inner_division_ColumnSection h3 {
+  color: #202B33;
+  font: normal normal normal 17px/1.4em 'Open Sans',sans-serif;
+  margin: 10px 0;
+}
+
+.c_inner_division_ColumnSection p {
+  color: #202B33;
+  font: normal normal normal 12px/1.4em 'Open Sans',sans-serif;
+  border-top: 1px solid;
+  text-align: justify;
+  margin: 0px 20px;
+  padding-top: 20px;
+}
+
+/************************************************************************************************************
+stylesheet for subhero section-2
+************************************************************************************************************/
+#id_subHeroSection-2 {
+  background: #C0C3C5;
+  margin-top: 15px;
+  width: 1349px;
+  height: 359px;
+}
+
+#id_division {
+  position: relative;
+  top: 30px;
+  background: rgba(29, 83, 119, 1);
+  height: 300px;
+}
+
+#id_inner_division-4 {
+  margin: 0px;
+  height: 300px;
+}
+
+#id_span-1, #id_span-2, #id_span-3 {
+  position: absolute;
+  width: 350px;
+  margin: 0px;
+  height: 25px;
+  color: #FFFFFF;
+  line-height: 1.4em;
+  font-weight: bold;
+  font: normal normal normal 17px/1.4em 'Open Sans',sans-serif;
+  word-wrap: break-word;
+}
+
+#id_span-1 {
+  background: linear-gradient(to right, red, orange);
+  top: 95px;  left: -20px;
+}
+
+#id_span-2 {
+  background: linear-gradient(to right, orange, yellow);
+  top: 137px; left: -20px;
+}
+
+#id_span-3 {
+  background: linear-gradient(to right, yellow, green);
+  top: 180px; left: -20px;
+}
+
+#id_span-4, #id_span-5 {
+  position: absolute;
+}
+
+#id_span-4 {
+  top: 80px;
+  left: 220px;
+}
+
+#id_span-5 {
+  top: 125px;
+  left: 300px;
+}
+
+#id_inner_division-5 {
+  height: 300px;
+}
+
+#id_inner_division-5 h3 {
+  line-height: 1.4em;
+  color: #FFFFFF;
+  text-align: justify;
+  letter-spacing: normal;
+  font: normal normal normal 20px/1.4em 'Open Sans',sans-serif;
+  word-wrap: break-word;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+#id_inner_division-5 p {
+  line-height: 1.4em;
+  color: #FFFFFF;
+  text-align: justify;
+  letter-spacing: normal;
+  font: normal normal normal 12px/1.4em 'Open Sans',sans-serif;
+  word-wrap: break-word;
+  margin-bottom: 0px;
+}
+
+#id_inner_division-5 span {
+  width: 185px;
+  height: 30px;
+  background-color: rgba(255, 140, 0, 1);
+  padding-top: 8px;
+  position: relative;
+  top: 40px;
+  left: 180px;
+}
+
+#id_inner_division-5 a {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+#id_inner_division-5 span:hover {
+  background-color: black;
+  transition-duration: 0.7s;
+  color: white;
+  opacity: 0.8;
+}
+/************************************************************************************************************
+stylesheet for hero section
+************************************************************************************************************/
+.grid_12 {
+  width: 960px;
+}
+
+#id_heroElement-1 {
+  height: 425px;
+}
+
+.c_heroElement-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.c_heroElement-2 a:hover {
+  text-decoration: underline;
+  text-decoration-color: #464B4E;
+  opacity: 0.5;
+  transition-duration: 0.3s;
+}
+
+.c_heroElement-2 a {
+  text-decoration: none;
+}
+
+.c_heroElement-2 img {
+  margin-left: -10px;
+}
+
+.div2 {
+  height: 120px;
+}
+
+.div2 h3,p {
+  margin-bottom: 0px;
+}
+
+.div2 h3
+{
+  line-height: initial;
+  height: 50px;
+}
+
+
+/************************************************************************************************************
+stylesheet for footer
+************************************************************************************************************/
+footer {
+  background: #C0C3C5;
+  height: 250px;
+}
+
+.c_footerInnerDiv {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.c_footerInnerDiv li {
+  margin: 10px 50px;
+  border-bottom: 4px solid rgba(255, 255, 255, 1);
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.c_footerInnerDiv a {
+  text-decoration: none;
+  color: #464B4E;
+}
+
+.c_footerInnerDiv a:hover {
+  transition-duration: 0.5s;
+  color: orange;
+}
+
+#id_socialLinks {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+#id_socialLinks span {
+  float: left;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+#id_lastSection {
+  height: 30px;
+}
+
+#id_left_div li {
+  margin-left: 0px;
+  margin-right: 100px
+}
+
+#id_right_div li {
+  margin-left: 100px;
+  margin-right: 0px;
+}
+
+/************************************************************************************************************
+stylesheet for posrtfolio 2nd row
+************************************************************************************************************/
+.c_portfolio_inner_division {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.c_portfolio_inner_division img:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+
+.c_portfolio_inner_division h3 {
+  text-decoration: none;
+  font: normal normal normal 17px/1.4em 'Open Sans',sans-serif;
+  margin-top: 10px;
+  color: white;
+}
