@@ -1,0 +1,15 @@
+a {
+  font-family: sans-serif;
+  padding-right: 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+li {
+  display: inline;
+}
+
+ul a:hover{
+  text-decoration: underline;
+  color: black;
+}

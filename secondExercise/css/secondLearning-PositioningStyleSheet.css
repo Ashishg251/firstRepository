@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+
+.p_wrap {
+  margin: auto;
+  width: 800px;
+  height: 600px;
+  background: grey;
+  position: relative;
+  top: 10px;
+}
+
+.c_wrap {
+  width: 80px;
+  height: 150px;
+  margin: auto;
+  background: orange;
+  position: absolute;
+  top: 430px; left: 760px;
+}
