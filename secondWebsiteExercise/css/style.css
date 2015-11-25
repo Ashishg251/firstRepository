@@ -210,6 +210,7 @@ stylesheet for subhero section-2
   font-weight: bold;
   font: normal normal normal 17px/1.4em 'Open Sans',sans-serif;
   word-wrap: break-word;
+  padding-left: 10px;
 }
 
 #id_span-1 {
@@ -290,7 +291,7 @@ stylesheet for subhero section-2
   opacity: 0.8;
 }
 /************************************************************************************************************
-stylesheet for hero section
+stylesheet for hero section(Block Section)
 ************************************************************************************************************/
 .grid_12 {
   width: 960px;
@@ -314,24 +315,27 @@ stylesheet for hero section
 
 .c_heroElement-2 a {
   text-decoration: none;
+  font : normal normal normal Impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+  color : #464B4E;
 }
 
 .c_heroElement-2 img {
   margin-left: -10px;
 }
 
-.div2 {
+.c_heroElement_2_div {
   height: 120px;
 }
 
-.div2 h3,p {
+.c_heroElement_2_div h3,p {
   margin-bottom: 0px;
 }
 
-.div2 h3
+.c_heroElement_2_div h3
 {
   line-height: initial;
   height: 50px;
+  margin-top: 10px;
 }
 
 
@@ -369,18 +373,26 @@ footer {
 }
 
 #id_socialLinks {
-  margin-left: 60px;
-  margin-top: 10px;
+  margin-left: 0px;
+  margin-top: 20px;
 }
 
 #id_socialLinks span {
-  float: left;
-  margin-left: 0px;
   margin-top: 5px;
+  font: normal normal normal 12px/1.4em 'Open Sans',sans-serif;
 }
 
 #id_lastSection {
   height: 30px;
+}
+
+#id_left_div, #id_middle_div, #id_right_div {
+  margin-top: 10px;
+}
+
+#id_middle_div li {
+  margin-left: 100px;
+  margin-right: 10px
 }
 
 #id_left_div li {
@@ -389,8 +401,8 @@ footer {
 }
 
 #id_right_div li {
-  margin-left: 100px;
-  margin-right: 0px;
+  margin-left: 150px;
+  margin-right: -50px;
 }
 
 /************************************************************************************************************
@@ -400,6 +412,12 @@ stylesheet for posrtfolio 2nd row
   text-align: left;
   margin-top: 10px;
   margin-bottom: 0px;
+}
+
+.c_portfolio_inner_division img {
+  border-radius: 10px;
+  width: 300px;
+  height: 270px;
 }
 
 .c_portfolio_inner_division img:hover {
@@ -412,4 +430,18 @@ stylesheet for posrtfolio 2nd row
   font: normal normal normal 17px/1.4em 'Open Sans',sans-serif;
   margin-top: 10px;
   color: white;
+  text-align: center;
+}
+
+#id_subHeroSection-2 h1, #id_subHeroSection-1 h2 {
+  font: normal normal normal 25px/1.4em 'Open Sans',sans-serif;
+  font-weight: bolder;
+  color: #464B4E;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding-top: 0px;
+}
+#id_subHeroSection-1 h2, #id_portfolio_division h3 {
+  color: #D4D6D7;
 }
